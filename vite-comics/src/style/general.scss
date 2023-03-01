@@ -1,0 +1,38 @@
+@use './partials/colors';
+
+// RESET RULES 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol,
+menu {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+// CONTAINER
+
+.container {
+    max-width: 1280px;
+}
+
+// UTILITY CLASSES
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
