@@ -57,7 +57,7 @@ export default {
 
 <style lang="scss" scoped>
 @use '../style/general.scss' as *;
-@use '../style/partials/colors';
+@use '../style/partials/colors' as *;
 
 .main-header {
     background-color: white;
@@ -65,7 +65,6 @@ export default {
 
     .container {
         height: 100%;
-        margin: 0 auto;
         justify-content: space-between;
 
         .logo {
@@ -76,13 +75,14 @@ export default {
         .navbar {
             height: 100%;
             display: flex;
-            gap: 32px;
 
             .nav-link {
                 height: 100%;
                 color: $black;
                 font-size: 0.75rem;
                 font-weight: 500;
+                line-height: 120px;
+                padding: 0 16px;
 
                 &:active {
                     border-bottom: 5px solid $blue;
