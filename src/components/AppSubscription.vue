@@ -73,6 +73,11 @@ export default {
             font-size: 14px;
             padding: 18px;
             background-color: $dark-grey;
+            transition: transform 300ms;
+
+            &:hover {
+                transform: scale(1.2);
+            }
         }
 
         .follow-us {
@@ -80,6 +85,7 @@ export default {
 
             span {
                 font-size: 18px;
+                color: $subscription-blue;
             }
 
             ul {
@@ -90,6 +96,14 @@ export default {
                     a {
                         height: 35px;
                         aspect-ratio: 1;
+
+                        img {
+                            transition: transform 300ms;
+
+                            &:hover {
+                                transform: scale(1.2);
+                            }
+                        }
                     }
                 }
             }

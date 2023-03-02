@@ -70,10 +70,11 @@ export default {
         .logo {
             height: 82px;
             aspect-ratio: 1;
-            transition: filter 300ms;
+            transition: all 300ms;
 
             &:hover {
-                filter: drop-shadow(0 0 0.75rem rgb(0, 204, 255))
+                filter: drop-shadow(0 0 0.75rem rgb(0, 204, 255));
+                transform: scale(1.2);
             }
         }
 
