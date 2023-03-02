@@ -94,7 +94,7 @@ export default {
                 }
 
                 &:hover {
-                    transform: scale(1.2);
+                    font-size: 0.9rem;
                     font-weight: 600;
                 }
             }
