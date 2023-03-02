@@ -29,7 +29,7 @@ export default {
                         <span>COMIC SHOP LOCATOR</span>
                     </li>
                     <li class="card flex-center">
-                        <img src="/img/buy-dc-power-visa.png" alt="">
+                        <img src="/img/buy-dc-power-visa.svg" alt="">
                         <span>DC POWER VISA</span>
                     </li>
                 </ul>
