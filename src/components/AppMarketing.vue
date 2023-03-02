@@ -53,14 +53,23 @@ export default {
         justify-content: space-around;
 
         .card {
+            gap: 10px;
+
 
             img {
                 height: 60px;
+                transition: filter 300ms;
             }
 
             span {
                 color: white;
                 font-size: 1rem;
+                transition: filter 300ms;
+            }
+
+            &:hover img,
+            &:hover span {
+                filter: drop-shadow(0 0 0.75rem white);
             }
         }
     }

@@ -70,6 +70,11 @@ export default {
         .logo {
             height: 82px;
             aspect-ratio: 1;
+            transition: filter 300ms;
+
+            &:hover {
+                filter: drop-shadow(0 0 0.75rem rgb(0, 204, 255))
+            }
         }
 
         .navbar {
@@ -86,6 +91,11 @@ export default {
 
                 &:active {
                     border-bottom: 5px solid $blue;
+                }
+
+                &:hover {
+                    transform: scale(1.2);
+                    font-weight: 600;
                 }
             }
         }
