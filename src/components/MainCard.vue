@@ -100,25 +100,22 @@ export default {
 @use '../style/general.scss' as *;
 @use '../style/partials/colors' as *;
 
-.col {
-    width: calc(100% - 28px*5/6);
 
-    .card {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        padding-bottom: 50px;
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
 
-        img {
-            height: 190px;
-            width: 190px;
-        }
+    img {
+        height: 190px;
+        width: 190px;
+    }
 
-        span {
-            font-size: 12px;
-            color: white;
-            text-transform: uppercase;
-        }
+    span {
+        font-size: 12px;
+        color: white;
+        text-transform: uppercase;
     }
 }
 </style>

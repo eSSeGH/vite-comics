@@ -92,7 +92,7 @@ export default {
 
                 <div class="row">
 
-                    <MainCard v-for="(card, i) in cards" :key="i" :card="card" />
+                    <MainCard class="col" v-for="(card, i) in cards" :key="i" :card="card" />
 
                 </div>
 
@@ -122,7 +122,11 @@ main {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 28px;
-                // width: 100%;
+
+
+                .col {
+                    width: calc(100% - 28px*5/6);
+                }
             }
         }
     }
