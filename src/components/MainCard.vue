@@ -106,6 +106,7 @@ export default {
     flex-direction: column;
     gap: 20px;
     padding-bottom: 50px;
+    width: 100%;
 
     img {
         height: 190px;
