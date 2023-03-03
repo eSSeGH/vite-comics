@@ -4,11 +4,7 @@ import AppLinksMenu from './AppLinksMenu.vue'
 export default {
     components: {
         AppLinksMenu,
-    },
-    data() {
-        return {}
     }
-
 }
 </script>
 

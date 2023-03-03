@@ -1,11 +1,5 @@
 <script>
 export default {
-    data() {
-        return {
-            title: '',
-            footerLinks: [],
-        }
-    },
     props: {
         title: {
             type: String,
